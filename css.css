@@ -1,0 +1,67 @@
+/****************Generic Selectors******************/ 
+body { 
+font-family: Georgia, "Times New Roman", Times, serif; 
+font-size: 14px; 
+color: #FFFFFF; 
+background-color: #0C0604;
+margin=0px 0px 0px 0px;
+} 
+h1 { 
+font-family: Georgia, "Times New Roman", Times, serif; 
+font-size: 20px; 
+font-weight: bold; 
+color: #FFFFFF; 
+} 
+h2 { 
+font-family: Georgia, "Times New Roman", Times, serif; 
+font-size: 16px; 
+font-weight: bold; 
+color: #FFFFFF; 
+} 
+h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 12px;
+font-weight: normal;
+color: #FFFFFF;
+}
+ 
+/**************** Pseudo classes ****************/ 
+:link { 
+color: #FFFFFF; 
+text-decoration: none; 
+font-weight: normal; 
+} 
+li :link { 
+color: #FFFFFF; 
+text-decoration: none; 
+font-weight: normal;
+} 
+:visited { 
+color: #FFFFFF; 
+text-decoration: none; 
+font-weight: normal; 
+} 
+li :visited { 
+color: #FFFFFF; 
+text-decoration: none; 
+font-weight: normal;
+} 
+:hover { 
+color: #FFFFFF; 
+padding-bottom: 5px; 
+font-weight: normal; 
+text-decoration: underline; 
+} 
+li :hover { 
+display: block; 
+color: #FFFFFF; 
+padding-bottom: 5px; 
+font-weight: normal; 
+border-bottom-width: 1px; 
+border-bottom-style: solid; 
+border-bottom-color: #FFFFFF; 
+} 
+:active { 
+color: #FFFFFF; 
+font-weight: normal;
+} 
